@@ -1,0 +1,15 @@
+C:\LocalDrop\LocalDrop\bin\Release\LocalDrop.exe.config
+C:\LocalDrop\LocalDrop\bin\Release\LocalDrop.exe
+C:\LocalDrop\LocalDrop\bin\Release\LocalDrop.pdb
+C:\LocalDrop\LocalDrop\bin\Release\Newtonsoft.Json.dll
+C:\LocalDrop\LocalDrop\bin\Release\Newtonsoft.Json.xml
+C:\LocalDrop\LocalDrop\obj\Release\LocalDrop.csproj.AssemblyReference.cache
+C:\LocalDrop\LocalDrop\obj\Release\LocalDrop.csproj.SuggestedBindingRedirects.cache
+C:\LocalDrop\LocalDrop\obj\Release\LocalDrop.AddDevice.resources
+C:\LocalDrop\LocalDrop\obj\Release\LocalDrop.Form1.resources
+C:\LocalDrop\LocalDrop\obj\Release\LocalDrop.Properties.Resources.resources
+C:\LocalDrop\LocalDrop\obj\Release\LocalDrop.csproj.GenerateResource.cache
+C:\LocalDrop\LocalDrop\obj\Release\LocalDrop.csproj.CoreCompileInputs.cache
+C:\LocalDrop\LocalDrop\obj\Release\LocalDrop.csproj.CopyComplete
+C:\LocalDrop\LocalDrop\obj\Release\LocalDrop.exe
+C:\LocalDrop\LocalDrop\obj\Release\LocalDrop.pdb

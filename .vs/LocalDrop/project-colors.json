@@ -1,0 +1,16 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "61e207c9-08a0-4507-8ba5-f44246c7fa05": {
+      "ProjectGuid": "61e207c9-08a0-4507-8ba5-f44246c7fa05",
+      "DisplayName": "LocalDrop",
+      "ColorIndex": 0
+    },
+    "f7b8e6cd-81e4-4749-99d5-a8dd8db355f1": {
+      "ProjectGuid": "f7b8e6cd-81e4-4749-99d5-a8dd8db355f1",
+      "DisplayName": "LocalDropAndroid",
+      "ColorIndex": 1
+    }
+  },
+  "NextColorIndex": 2
+}
