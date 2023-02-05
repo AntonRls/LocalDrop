@@ -37,7 +37,7 @@
 
 	/* 1: LocalDropAndroid.dll */
 	/* uncompressed_file_size */
-	.long	137216
+	.long	142336
 	/* loaded */
 	.byte	0
 	/* data */
@@ -46,7 +46,7 @@
 
 	/* 2: Mono.Android.dll */
 	/* uncompressed_file_size */
-	.long	1113600
+	.long	1187328
 	/* loaded */
 	.byte	0
 	/* data */
@@ -64,7 +64,7 @@
 
 	/* 4: System.Core.dll */
 	/* uncompressed_file_size */
-	.long	56320
+	.long	57344
 	/* loaded */
 	.byte	0
 	/* data */
@@ -91,7 +91,7 @@
 
 	/* 7: System.dll */
 	/* uncompressed_file_size */
-	.long	389120
+	.long	390656
 	/* loaded */
 	.byte	0
 	/* data */
@@ -127,7 +127,7 @@
 
 	/* 11: Xamarin.AndroidX.Core.dll */
 	/* uncompressed_file_size */
-	.long	291328
+	.long	293376
 	/* loaded */
 	.byte	0
 	/* data */
@@ -217,7 +217,7 @@
 
 	/* 21: Xamarin.Essentials.dll */
 	/* uncompressed_file_size */
-	.long	26112
+	.long	45056
 	/* loaded */
 	.byte	0
 	/* data */
@@ -244,7 +244,7 @@
 
 	/* 24: mscorlib.dll */
 	/* uncompressed_file_size */
-	.long	1876480
+	.long	1879040
 	/* loaded */
 	.byte	0
 	/* data */

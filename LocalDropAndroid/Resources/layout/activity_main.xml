@@ -4,23 +4,60 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
-     
+ 
+
    
     <ScrollView
         android:minWidth="25px"
         android:minHeight="25px"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-      
-        android:id="@+id/scrollView1" >
-    <TextView
-        android:text="Text"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:padding="20dp"
-      android:textSize="20sp"
-            android:textColor="#000000"
-        android:id="@+id/textView1" />
+        android:id="@+id/scrollView2" >
+        <androidx.coordinatorlayout.widget.CoordinatorLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+       
+            
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="150px"
+                android:layout_margin="200px"
+                android:hint="IP Адресс"
+                android:id="@+id/textInputEditText1" />
+             <Button
+                android:text="Выбрать файл"
+                android:layout_marginTop="350px"
+                android:layout_marginLeft="100px"
+                android:layout_marginRight="100px"
+                android:layout_width="match_parent"
+                android:layout_height="130px"
+                android:id="@+id/button1"/>
+             <Button
+                android:text="Отправить"
+                android:layout_marginTop="480px"
+                android:layout_marginLeft="130px"
+                android:layout_marginRight="130px"
+                android:layout_width="match_parent"
+                android:layout_height="130px"
+                android:id="@+id/button2"/>
+            <TextView
+                android:text="Text"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="20dp"
+                android:textSize="20sp"
+                android:textColor="#000000"
+                android:id="@+id/textView1" 
+                android:layout_marginTop="710px"/>
+            <ProgressBar
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/progressBar1"
+               />
+           
+        </androidx.coordinatorlayout.widget.CoordinatorLayout>
     </ScrollView>
+   
   
 </androidx.coordinatorlayout.widget.CoordinatorLayout>

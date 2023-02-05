@@ -15,6 +15,7 @@ public class MonoPackageManager_Resources {
 		"Xamarin.AndroidX.Lifecycle.ViewModel.dll",
 		"Xamarin.AndroidX.Loader.dll",
 		"Xamarin.AndroidX.SavedState.dll",
+		"Xamarin.AndroidX.VersionedParcelable.dll",
 		"Xamarin.Essentials.dll",
 		"Xamarin.Google.Android.Material.dll",
 		"Xamarin.Google.Guava.ListenableFuture.dll",

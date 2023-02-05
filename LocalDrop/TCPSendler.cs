@@ -17,7 +17,7 @@ namespace LocalDrop
             client = new TcpClient();
             client.Connect(ip, port);
         }
-        public async void SendData(byte[] data, string name)
+        public async void SendDataAsync(byte[] data, string name)
         {
             NetworkStream stream = client.GetStream();
             int bufferSize = 1024;

@@ -3,9 +3,11 @@ adaptive-icon;obj\Debug\120\res\mipmap-anydpi-v26\ic_launcher_round.xml
 androidx.coordinatorlayout.widget.CoordinatorLayout;obj\Debug\120\res\layout\activity_main.xml
 background;obj\Debug\120\res\mipmap-anydpi-v26\ic_launcher.xml
 background;obj\Debug\120\res\mipmap-anydpi-v26\ic_launcher_round.xml
+Button;obj\Debug\120\res\layout\activity_main.xml
 cache-path;C:\LocalDrop\LocalDropAndroid\obj\Debug\120\lp\38\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
 color;obj\Debug\120\res\values\colors.xml
 color;obj\Debug\120\res\values\ic_launcher_background.xml
+com.google.android.material.textfield.TextInputEditText;obj\Debug\120\res\layout\activity_main.xml
 dimen;obj\Debug\120\res\values\dimens.xml
 external-cache-path;C:\LocalDrop\LocalDropAndroid\obj\Debug\120\lp\38\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
 external-path;C:\LocalDrop\LocalDropAndroid\obj\Debug\120\lp\38\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
@@ -15,6 +17,7 @@ item;obj\Debug\120\res\menu\menu_main.xml
 item;obj\Debug\120\res\values\styles.xml
 menu;obj\Debug\120\res\menu\menu_main.xml
 paths;C:\LocalDrop\LocalDropAndroid\obj\Debug\120\lp\38\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
+ProgressBar;obj\Debug\120\res\layout\activity_main.xml
 resources;obj\Debug\120\res\values\colors.xml
 resources;obj\Debug\120\res\values\dimens.xml
 resources;obj\Debug\120\res\values\ic_launcher_background.xml

@@ -1701,11 +1701,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\LocalDrop\\LocalDropAndroid\\LocalDropAndroid.csproj",
+      "projectUniqueName": "C:\\LocalDrop1\\LocalDropAndroid\\LocalDropAndroid.csproj",
       "projectName": "LocalDropAndroid",
-      "projectPath": "C:\\LocalDrop\\LocalDropAndroid\\LocalDropAndroid.csproj",
+      "projectPath": "C:\\LocalDrop1\\LocalDropAndroid\\LocalDropAndroid.csproj",
       "packagesPath": "C:\\Users\\Антон\\.nuget\\packages\\",
-      "outputPath": "C:\\LocalDrop\\LocalDropAndroid\\obj\\",
+      "outputPath": "C:\\LocalDrop1\\LocalDropAndroid\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [

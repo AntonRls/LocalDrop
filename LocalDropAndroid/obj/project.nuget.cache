@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "J3Z6Ppg8yD/kALWMokcAA66eWCrugvKgSiYqVVd+JZfG7StjfqSMUysEi+0hV2PToNxDT3FEg7nSmVkG30eYoA==",
+  "dgSpecHash": "m+Xd/OnmEAdKg4CtzWPB1c3Sh4erXmrK62BfFfamwsy1MVagkT/vQ6KAFVcRWhlsGZ1EGPIa2SQTJJeVj+MzCQ==",
   "success": true,
-  "projectFilePath": "C:\\LocalDrop\\LocalDropAndroid\\LocalDropAndroid.csproj",
+  "projectFilePath": "C:\\LocalDrop1\\LocalDropAndroid\\LocalDropAndroid.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Антон\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\xamarin.androidx.activity\\1.1.0.3\\xamarin.androidx.activity.1.1.0.3.nupkg.sha512",

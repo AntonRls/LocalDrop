@@ -6,6 +6,8 @@ using System.Data;
 using System.Drawing;
 using System.IO;
 using System.Linq;
+using System.Net;
+using System.Net.Sockets;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -18,12 +20,27 @@ namespace LocalDrop
         {
             InitializeComponent();
         }
-
+     
         Device devices;
+        TCPManager Manager;
         private void Form1_Load(object sender, EventArgs e)
         {
             devices = new Device();
             UpdateListDevices();
+            label3.Text = "IP Для получения файлов: " + Property.GetIp();
+
+            if (!Directory.Exists("LocalDrop"))
+            {
+                Directory.CreateDirectory("LocalDrop");
+            }
+            Manager = new TCPManager(Property.GetIp(), 5555);
+            Manager.StartListenerAsync(CompleteDownload);
+        }
+
+
+        private void CompleteDownload(string name, string size)
+        {
+            MessageBox.Show($"{name} ({size}МБ)", "Файл успешно получен!", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
         private void button1_Click(object sender, EventArgs e)
         {
@@ -78,14 +95,11 @@ namespace LocalDrop
             progressBar1.Value = 0;
             ComboboxItem item = (ComboboxItem)comboBox1.SelectedItem;
 
-   
-            TCPSendler sendler = new TCPSendler((string)item.Value, 5555);
-
-            sendler.ChangeStatusLoad += ChangeStatusLoad;
-
             byte[] data = File.ReadAllBytes(PathToFile);
-     
-            sendler.SendData(data, PathToFile.Split('\\').Last());
+
+            TCPSendler sendler = new TCPSendler((string)item.Value, 5555);
+            sendler.ChangeStatusLoad = ChangeStatusLoad;
+            Manager.SendFileAsync(data, PathToFile.Split('\\').Last(), sendler);
         }
 
         public void ChangeStatusLoad(int progress)
@@ -100,7 +114,7 @@ namespace LocalDrop
             }
            
         }
+   
 
-    
     }
 }
